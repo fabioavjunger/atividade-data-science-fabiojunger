@@ -1,4 +1,37 @@
+# Python cache
+
 **pycache**/
 *.pyc
+*.pyo
+
+# Jupyter Notebook
+
 .ipynb_checkpoints/
+
+# Ambiente virtual
+
+.venv/
+venv/
+env/
+
+# Arquivos de ambiente
+
 .env
+
+# Sistema operacional
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Arquivos temporários
+
+*.tmp
+*.bak
+
+# Dados pesados (opcional)
+
+data/raw/*.csv
